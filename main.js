@@ -9,7 +9,7 @@ if (process.env.MONGO_URL) {
   }).then(() => {
     // console.clear()
     console.log("Mongoose Is Connected :)")
-    app.listen(4000, () => console.log("Connection established at port 4000"));
+    app.listen(process.env.PORT, '0.0.0.0', () => console.log("Connection established."));
 
   }).catch(err => {
     console.error("Mongoose Error")
