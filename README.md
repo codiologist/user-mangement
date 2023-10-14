@@ -5,7 +5,7 @@
 - ✅ Implement Doctor Profile Update
   - ✅ Expertise
   - ✅ Working_period
-- ⌛ Photo Upload Mechanism
+- ⌛ Photoo Upload Mechanism
 - Patient Create Appointment
   - List of Doctor By Expertise
   - Filter By Available Week Day
