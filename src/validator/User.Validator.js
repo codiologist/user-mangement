@@ -21,6 +21,7 @@ const update = Joi.object({
 	designation: Joi.string(),
 	bio: Joi.string(),
 	avatar: Joi.string(),
+	age: Joi.number(),
 });
 
 module.exports.UserValidator = {
